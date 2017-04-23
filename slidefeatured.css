@@ -1,0 +1,27 @@
+#slide{height:auto}
+#slidepager{width:auto;margin:0 auto;text-align:center;display:block!important}
+#slidepager>span{display:inline-block;width:10px;height:10px;margin:10px 5px 0;background:rgba(0,0,0,.2);text-align:center;border-radius:100%;font-size:17px;text-decoration:none;transition:background .3s linear 0s;cursor:pointer}
+#slidecontent{margin:0 auto;transition:opacity .3s linear 0s;color:#AAA;background:#fff;border:1px solid #dedede;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;position:relative;overflow:hidden;height:auto}
+.slidepanel{width:100%;padding:10px 15px 15px;-moz-box-sizing:border-box;word-wrap:break-word;-webkit-box-sizing:border-box;box-sizing:border-box}
+.slidepanel>h2{text-align:left;font-size:20px;font-weight:bold;line-height:1.2em;color:#333;margin:0 auto 10px;text-transform:capitalize;padding:0!important}
+.slidepanel>p,.slidepanel>span{font-size:14px;font-weight:normal;line-height:1.2em;color:#777;margin:10px 0 0!important}
+.slidepanel a{color:#333;text-decoration:none;font-weight:700;transition:all .4s ease-out}
+#slide:hover .slidepanel a{color:#e8554e}
+.slideimage{width:100%;height:150px;margin:0;padding:0;position:relative}
+.slideimage img{width:100%;height:100%;margin-bottom:-4px}
+.clear{clear:both}
+.bounceInLeft{-webkit-animation-name:bounceInLeft;animation-name:bounceInLeft;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}
+@-webkit-keyframes bounceInLeft{0%,100%,60%,75%,90%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}
+0%{opacity:0;-webkit-transform:translate3d(-3000px,0,0);transform:translate3d(-3000px,0,0)}
+60%{opacity:1;-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}
+75%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}
+90%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}
+100%{-webkit-transform:none;transform:none}
+}
+@keyframes bounceInLeft{0%,100%,60%,75%,90%{-webkit-transition-timing-function:cubic-bezier(.215,.61,.355,1);transition-timing-function:cubic-bezier(.215,.61,.355,1)}
+0%{opacity:0;-webkit-transform:translate3d(-3000px,0,0);transform:translate3d(-3000px,0,0)}
+60%{opacity:1;-webkit-transform:translate3d(25px,0,0);transform:translate3d(25px,0,0)}
+75%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}
+90%{-webkit-transform:translate3d(5px,0,0);transform:translate3d(5px,0,0)}
+100%{-webkit-transform:none;transform:none}
+}
